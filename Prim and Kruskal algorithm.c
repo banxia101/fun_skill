@@ -1,3 +1,4 @@
+/*算法相关的图片放在Photos中，命名为PK_algorithm1/2*/
 #Prim algorithm
 #该算法将图转换为邻接矩阵，构造最小生成树，通过找权值最小的顶点，并修改lowcost[]值，依次递归，不断更新lowcost[]数组，最终完成全局搜索
 void MiniSpanTree_Prim(MGraph G)
